@@ -60,4 +60,13 @@ p {
 
 .player {
     margin-left: 25px; 
+    transition: color .3s ease;
+}
+
+.hat-trick  {
+    color: green;
+}
+
+.injured {
+    opacity: .5;
 }

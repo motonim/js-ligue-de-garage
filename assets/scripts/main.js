@@ -13,6 +13,6 @@ let teams = [
 
 let elLeagues = document.querySelectorAll('[data-js-league]');
 
-for (let i =0; i < elLeagues.length; i++) {
+for (let i = 0; i < elLeagues.length; i++) {
     new League(elLeagues[i], teams);
 }
